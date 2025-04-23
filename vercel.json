@@ -3,10 +3,8 @@
     {
       "source": "/Build/(.*).wasm",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/wasm"
-        }
+        { "key": "Content-Type", "value": "application/wasm" },
+        { "key": "Content-Encoding", "value": "" }  // clear any encoding
       ]
     }
   ]
